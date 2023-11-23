@@ -70,3 +70,55 @@ Using ptr print the length of the word.
 ![Screenshot 2023-11-23 180804](https://github.com/noor307922/CPP/assets/125033135/962febf6-deae-4f4b-a1c1-b05d412fbf19)
 
 ![Screenshot 2023-11-23 181435](https://github.com/noor307922/CPP/assets/125033135/46738a6c-d01b-489f-88ea-52ac045953fb)
+
+
+### ***Title*** : LAB7
+### ***Aim*** : 
+Reading from an xcel(.csv) file Name and Age using r(read) mode and storing as structure using malloc dynamic memory allocation
+
+Writing to a file Name and Age using a(append) mode
+
+### ***Algorithm*** :
+
+Reading from a CSV File and Storing as a Structure
+
+***Algorithm for part1***:
+
+Open the CSV file for reading.
+
+Check if the file was opened successfully. If not, display an error message and exit.
+
+Create a structure (in this case, Person) to store the data from each line of the CSV file. The structure contains two members: a character pointer for the name and an integer for the age.
+
+Create a vector or another suitable data structure to hold instances of the Person structure.
+
+Read each line from the CSV file using std::getline.
+
+Tokenize the line by splitting it at each comma (,). For this, you can use strtok.
+
+Extract the name and age from the tokens and store them in a new instance of the Person structure.
+
+Add the Person structure to your data structure (e.g., a vector) if the tokenization is successful.
+
+Print the data from the data structure (e.g., the vector).
+
+Free the dynamically allocated memory to prevent memory leaks.
+
+Writing to a File in Append Mode
+
+***Algorithm for part2***:
+
+Open the file in append mode using ofstream with the ios::app flag.
+
+Check if the file was opened successfully. If not, display an error message and exit.
+
+Create a structure (in this case, Person) to store the data to be written to the file. The structure contains a string for the name and an integer for the age.
+
+Input the name and age from the user.
+
+Write the name and age to the end of the file using the << operator.
+
+Close the file.
+
+
+Output:
