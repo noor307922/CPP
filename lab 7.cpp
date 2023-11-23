@@ -16,10 +16,10 @@ using namespace std;
 };*/
 
 // Define a structure to store Name and Age
-/*struct Person {
+struct Person {
     string name;
     int age;
-};*/
+};
 
 int main()
 {
@@ -138,12 +138,8 @@ int main()
     }*/
 
 
-
-
-
-
-    //part2_new
-    /*const char* filename = "C:\\Users\\Aniketh Mehta\\Desktop\\myfile.csv";
+//part2_new
+    /*const char* filename = "C:\\Users\\Mahenur Dalwale\\Desktop\\myfile.csv";
 
     ofstream file(filename, ios::app); // Open the file in append mode
 
@@ -153,8 +149,7 @@ int main()
     }
 
     Person person;
-
-    // Input Name and Age
+ // Input Name and Age
     cout << "Enter Name: ";
     cin >> person.name;
 
@@ -165,9 +160,6 @@ int main()
     file << person.name << "," << person.age << endl;
 
     cout << "Data appended to " << filename << endl;*/
-
-
-
-    return 0;
+ return 0;
 
 }
