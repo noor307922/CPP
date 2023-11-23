@@ -268,3 +268,7 @@ We keep doing this until the user says, "I'm done" (chooses "Exit").
 
 In a nutshell, our linked list is like a chain of containers, and we can add, remove, and see the numbers inside those containers based on what the user wants.
 
+
+Output : 
+
+![Screenshot 2023-11-23 200745](https://github.com/noor307922/CPP/assets/125033135/259d2143-699f-4362-99b6-90b54bb4ca14)
