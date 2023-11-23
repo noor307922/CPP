@@ -28,7 +28,7 @@
 Output :![Screenshot 2023-11-23 171050](https://github.com/noor307922/CPP/assets/125033135/efd21e47-05fb-4952-93f5-8abf0171ab9b)
 
 
-### ***Title*** : LAB6
+### ***Title*** : LAB6 'A'
 ### ***Aim***: To print five digit number in words.
 ### ***Algorithm*** : 
 (1) Create ptr to array of digit_str from one to nine,Create ptr to array of two_digit_str from ten to nineteen,Create ptr to array of tens_str from twenty to ninety
@@ -42,3 +42,28 @@ Output :![Screenshot 2023-11-23 171050](https://github.com/noor307922/CPP/assets
 ### ***Output***
 ![Screenshot 2023-11-23 175712](https://github.com/noor307922/CPP/assets/125033135/98c7b663-e73a-40c3-9e1a-276ae17e21a0)
 
+
+### ***Title*** : LAB6 'B'
+### ***Aim*** : 
+(1) Write a program to declare a char array of 20 characters. Read a word(using scanf or cin>>) into the char array.
+
+(2) Display the array and reverse of the array on screen.
+
+(3) Check if the word is a palindrome(A word is a palindrome if it reads same either straight or reverse e.g. "madam")
+
+(4) Using pointer please calculate length of the word.
+
+### ***Algorithm*** :
+First declare a char array with size 20.
+
+Use cin(>>) to read a word
+
+Using for loop iterate and print the array and store it in a arr
+
+Using for loop iterate and print the reverse of the array and store it in reverse_arr
+
+Check the word is palindrome or not using if statement
+
+Using ptr print the length of the word.
+
+### ***Output*** :
