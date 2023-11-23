@@ -67,3 +67,7 @@ Check the word is palindrome or not using if statement
 Using ptr print the length of the word.
 
 ### ***Output*** :
+![Screenshot 2023-11-23 180804](https://github.com/noor307922/CPP/assets/125033135/962febf6-deae-4f4b-a1c1-b05d412fbf19)
+
+![Screenshot 2023-11-23 181106](https://github.com/noor307922/CPP/assets/125033135/41a18b9b-ba53-42ba-bc97-1ae1a562180f)
+![Screenshot 2023-11-23 181435](https://github.com/noor307922/CPP/assets/125033135/46738a6c-d01b-489f-88ea-52ac045953fb)
