@@ -272,3 +272,52 @@ In a nutshell, our linked list is like a chain of containers, and we can add, re
 Output : 
 
 ![Screenshot 2023-11-23 200745](https://github.com/noor307922/CPP/assets/125033135/259d2143-699f-4362-99b6-90b54bb4ca14)
+
+
+### ***Title*** : LAB13
+### ***Aim*** : Stack Implementation
+### ***Algorithm*** :
+
+Stack Operations:
+
+Push:
+Add an element to the top of the stack.
+If the stack is full, display an error message (stack overflow).
+
+Pop:
+Remove the element from the top of the stack.
+If the stack is empty, display an error message (stack underflow).
+
+Display:
+Show all elements in the stack from the bottom to the top.
+If the stack is empty, indicate that it's empty.
+
+Peek:
+View the element at the top of the stack without removing it.
+If the stack is empty, indicate that it's empty.
+
+Exit:
+End the program.
+
+Stack Implementation:
+The stack is implemented using an array and a variable (top) that keeps track of the top element's position.
+isFull checks if the stack is full, and isEmpty checks if it's empty.
+push adds an element to the top of the stack if it's not full.
+pop removes the top element if the stack is not empty.
+display shows all elements if the stack is not empty.
+peek shows the top element without removing it if the stack is not empty.
+
+Menu:
+The program displays a menu with options for push, pop, display, peek, and exit.
+It prompts the user to enter their choice and performs the corresponding operation.
+If an invalid choice is entered, it displays an error message.
+
+Main Loop:
+The program continues to execute until the user chooses to exit.
+It repeats the menu and operation execution based on the user's input.
+
+Output :
+
+![Screenshot 2023-11-23 202429](https://github.com/noor307922/CPP/assets/125033135/86ac0e77-e1f6-4c65-88c8-29ef6def71fe)
+
+![Screenshot 2023-11-23 202455](https://github.com/noor307922/CPP/assets/125033135/17af82cf-dd79-4520-8a08-ab8598806911)
