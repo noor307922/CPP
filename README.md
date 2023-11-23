@@ -185,3 +185,4 @@ Use the overloaded ++ operator to increment the date by one day.
 Display the updated date.
 
 Output :
+![Screenshot 2023-11-23 195425](https://github.com/noor307922/CPP/assets/125033135/a4ef82f5-7445-4b6e-afbd-f13f3c407599)
