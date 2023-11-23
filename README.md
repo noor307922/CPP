@@ -141,8 +141,12 @@ Part 1
 
 (5) Check whether the year entered by user is leap or not leap by using is_leap()
 
+Output : 
 (6) Calculate the total days from Jan 1 to current date day_of_year()
 
 (7) Display the date without slashed form using disp_date1()
 
 (8) Display the weekday for the current date using disp_weekday()
+
+Output :
+![Screenshot 2023-11-23 194756](https://github.com/noor307922/CPP/assets/125033135/8f6b129b-35c9-44e1-9241-9d4678905448)
