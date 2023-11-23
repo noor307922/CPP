@@ -375,3 +375,93 @@ Output :
 
 
 ![Screenshot 2023-11-23 203452](https://github.com/noor307922/CPP/assets/125033135/a04f8545-9c63-4386-a49a-f6d033beb3e8)
+
+
+
+### ***Title*** : LAB16
+### ***Aim*** : Trees
+### ***Algorithm*** :
+
+1. Node Insertion Algorithm:
+
+Objective: Add a new number to the tree while maintaining the order.
+
+Steps:
+
+If the tree is empty, create a new node with the given number and make it the root.
+If the number is smaller than the current node's number, go to the left subtree and repeat step 1.
+If the number is larger, go to the right subtree and repeat step 1.
+Return the modified tree.
+
+2. Tree Traversal Algorithms:
+
+a. Inorder Traversal:
+
+Objective: Visit all nodes in ascending order.
+
+Steps:
+
+Go to the left subtree and repeat the process.
+Visit the current node.
+Go to the right subtree and repeat the process.
+
+b. Preorder Traversal:
+
+Objective: Visit the current node before its children.
+
+Steps:
+
+Visit the current node.
+Go to the left subtree and repeat the process.
+Go to the right subtree and repeat the process.
+
+c. Postorder Traversal:
+
+Objective: Visit the current node after its children.
+
+Steps:
+
+Go to the left subtree and repeat the process.
+Go to the right subtree and repeat the process.
+Visit the current node.
+
+3. Node Deletion Algorithm:
+
+Objective: Remove a number from the tree.
+
+Steps:
+
+If the tree is empty, do nothing.
+If the number is smaller than the current node's number, go to the left subtree and repeat the process.
+If the number is larger, go to the right subtree and repeat the process.
+
+If the number is found:
+
+a. If the node has no children (leaf node), delete it.
+b. If the node has one child, replace it with its child.
+c. If the node has two children, find the smallest node in the right subtree, replace the current node's data with it, and repeat the process for the right subtree.
+
+4. Menu-Driven Interface:
+
+Objective: Provide a user-friendly way to interact with the tree operations.
+
+Steps:
+
+Display a menu with options to insert, traverse, delete, or exit.
+Based on the user's choice:
+Insert a number into the tree.
+Display the tree using different traversal methods.
+Delete a node from the tree.
+Exit the program.
+
+This menu-driven interface allows users to perform various operations on the Binary Search Tree interactively.
+
+Output:
+
+![Screenshot 2023-11-23 204025](https://github.com/noor307922/CPP/assets/125033135/721845ef-1c14-420d-a395-5939deb2010c)
+
+
+![Screenshot 2023-11-23 204107](https://github.com/noor307922/CPP/assets/125033135/f6282536-dd72-49cb-a22a-e127de49fa49)
+
+
+![Screenshot 2023-11-23 204122](https://github.com/noor307922/CPP/assets/125033135/fa06bb60-2631-42f7-8910-f989b2c40391)
