@@ -40,4 +40,5 @@ Output :![Screenshot 2023-11-23 171050](https://github.com/noor307922/CPP/assets
 (4) Print the units tens hundreds thousands ten thousand
 
 ### ***Output***
+![Screenshot 2023-11-23 175712](https://github.com/noor307922/CPP/assets/125033135/98c7b663-e73a-40c3-9e1a-276ae17e21a0)
 
