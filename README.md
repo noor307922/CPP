@@ -217,4 +217,7 @@ The order in which constructors are called is determined by the order of inherit
 
 In summary, when a derived class object is defined in C++, the constructors are called in a well-defined order: first the base class constructor(s), in the order of inheritance, and then the derived class constructor. You can use member initializer lists to explicitly call base class constructors if needed. This ensures proper initialization and allows you to set up the derived class's specific behavior while inheriting the characteristics of the base class.
 
+
 Output :
+![Screenshot 2023-11-23 195851](https://github.com/noor307922/CPP/assets/125033135/8d03783c-5147-49f0-9b8e-d21977857b93)
+
