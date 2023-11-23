@@ -122,7 +122,27 @@ Close the file.
 
 
 Output:
-
+Part 1
 
 ![Screenshot 2023-11-23 184016](https://github.com/noor307922/CPP/assets/125033135/5ea44f60-f0eb-4e8f-a15a-578bdac0db7f)
 ![Screenshot 2023-11-23 184113](https://github.com/noor307922/CPP/assets/125033135/4b8f9d53-84bf-435b-ac17-b3cdde95de06)
+
+
+### ***Title*** : LAB8 & LAB9
+### ***Aim*** : Write a class (date), access its functions using class object (today)
+### ***Algorithm*** : 
+(1) Create a class named date
+
+(2) Initialize int arr month_days, initialize ptr to strings months and weekdays
+
+(3) Take day, month, year from user
+
+(4) Display the date in slashed form with the help of disp_date() function
+
+(5) Check whether the year entered by user is leap or not leap by using is_leap()
+
+(6) Calculate the total days from Jan 1 to current date day_of_year()
+
+(7) Display the date without slashed form using disp_date1()
+
+(8) Display the weekday for the current date using disp_weekday()
