@@ -1,6 +1,6 @@
 
-Title : LAB5
-Aim : Recursion
+### ***Title*** : LAB5
+### ***Aim*** : Recursion
 (1) Addition of first n integers
 
 (2) Factorial of n
@@ -9,19 +9,19 @@ Aim : Recursion
 
 (4) Print reverse of number
 
-Algorithm :
+### ***Algorithm*** :
 (1) First create function declarations and definitions
 
 (2) Write the logic for the functions using recursion
 
 (3) Call the functions
 
-Explanation :
+### ***Explanation*** :
 (1) sum(n) = n+sum(n-1)
 
 (2) fact(n) = n*fact(n-1)
 
-(3) str="HELLO" -> w+rev_the_string(elcome) and so on and we get emoclew
+(3) str="welcome" -> w+rev_the_string(elcome) and so on and we get emoclew
 
 (4) number=45 -> 6+rev_the_number(54) and so on and we get 54
 
