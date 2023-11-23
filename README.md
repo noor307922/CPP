@@ -321,3 +321,57 @@ Output :
 ![Screenshot 2023-11-23 202429](https://github.com/noor307922/CPP/assets/125033135/86ac0e77-e1f6-4c65-88c8-29ef6def71fe)
 
 ![Screenshot 2023-11-23 202455](https://github.com/noor307922/CPP/assets/125033135/17af82cf-dd79-4520-8a08-ab8598806911)
+
+### ***Title*** : LAB15
+### ***Aim*** :
+
+(1) Linear search
+
+(2) Binary search
+
+### ***Algorithm*** :
+
+Linear Search Algorithm:
+
+Input: An array arr of size n and a target element target.
+
+Output: The index of the target element in the array if found, or -1 if not found.
+
+Start at the first element of the array (index 0).
+
+Repeat the following steps for each element in the array, starting from index 0 and moving to the end of the array.
+
+a. Check if the current element is equal to the target element.
+
+b. If the current element is equal to the target, return the index of the current element.
+
+If the loop completes without finding the target, return -1 to indicate that the target element is not in the array.
+
+Binary Search Algorithm:
+
+Input: A sorted array arr of size n and a target element target.
+
+Output: The index of the target element in the array if found, or -1 if not found.
+
+Initialize two pointers, left and right, to the first and last indices of the array, respectively.
+
+While left is less than or equal to right, do the following:
+
+a. Calculate the middle index mid as (left + right) / 2.
+
+b. If the element at mid is equal to the target, return mid.
+
+c. If the element at mid is less than the target, update left to mid + 1 to search the right half.
+
+d. If the element at mid is greater than the target, update right to mid - 1 to search the left half.
+
+If the loop completes without finding the target, return -1 to indicate that the target element is not in the array.
+
+These algorithms provide two different methods for searching for an element in an array. Linear search is straightforward but less efficient, especially for large arrays. Binary search, on the other hand, is highly efficient for sorted arrays, as it reduces the search space by half at each step, making it much faster for large datasets.
+
+Output :
+
+![Screenshot 2023-11-23 203309](https://github.com/noor307922/CPP/assets/125033135/6d51416e-44ed-4145-8ec7-906c9946e7ea)
+
+
+![Screenshot 2023-11-23 203452](https://github.com/noor307922/CPP/assets/125033135/a04f8545-9c63-4386-a49a-f6d033beb3e8)
