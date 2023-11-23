@@ -221,3 +221,50 @@ In summary, when a derived class object is defined in C++, the constructors are 
 Output :
 ![Screenshot 2023-11-23 195851](https://github.com/noor307922/CPP/assets/125033135/8d03783c-5147-49f0-9b8e-d21977857b93)
 
+
+### ***Title*** : LAB12
+### ***Aim*** : Linked List
+### ***Algorithm*** : 
+Imagine a linked list as a chain of containers, where each container holds something special. In our case, each container is a "node" that stores a number, and it has a pointer pointing to the next container in the chain.
+
+Starting Point:
+
+We have a special pointer called "head" that tells us where our chain of containers begins. At the beginning, it points to nothing (nullptr) because our chain is empty.
+
+Adding a Number at the Beginning:
+Imagine we have a new container.
+We put our desired number in this new container.
+We make the new container point to where the head is pointing.
+We update the head to point to our new container.
+
+Adding a Number at the End:
+Imagine we have a new container.
+We put our desired number in this new container.
+If our chain is empty, we make the head point to our new container.
+If our chain is not empty, we find the last container and make it point to our new container.
+
+Removing a Number from the Beginning:
+If our chain is empty, we say, "Sorry, there's nothing to remove."
+If our chain is not empty, we look at the first container and remember it.
+We update the head to point to the next container.
+We say goodbye to the container we remembered.
+
+Removing a Number from the End:
+If our chain is empty, we say, "Sorry, there's nothing to remove."
+If there's only one container, we remove it and update the head to nullptr.
+If there's more than one container, we find the second-to-last container.
+We make the second-to-last container point to nullptr, and we remove the last container.
+
+Displaying the Numbers:
+We start at the head and look inside each container.
+We shout out the number we find.
+We move to the next container and repeat until we reach the end, where we shout "NULL."
+
+Main Function and Menu:
+We show a menu with choices like "Add at the Beginning," "Add at the End," "Remove from the Beginning," "Remove from the End," "Display," and "Exit."
+We ask the user to pick a choice.
+Based on the choice, we perform the corresponding action (adding, removing, displaying).
+We keep doing this until the user says, "I'm done" (chooses "Exit").
+
+In a nutshell, our linked list is like a chain of containers, and we can add, remove, and see the numbers inside those containers based on what the user wants.
+
