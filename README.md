@@ -28,9 +28,9 @@
 Output :![Screenshot 2023-11-23 171050](https://github.com/noor307922/CPP/assets/125033135/efd21e47-05fb-4952-93f5-8abf0171ab9b)
 
 
-### ***Title : LAB6
-### ***Aim: To print five digit number in words.
-### ***Algorithm : 
+Title : LAB6
+Aim: To print five digit number in words.
+Algorithm : 
 (1) Create ptr to array of digit_str from one to nine,Create ptr to array of two_digit_str from ten to nineteen,Create ptr to array of tens_str from twenty to ninety
 
 (2) Get the five digit number from user
