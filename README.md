@@ -150,3 +150,38 @@ Output :
 
 Output :
 ![Screenshot 2023-11-23 194756](https://github.com/noor307922/CPP/assets/125033135/8f6b129b-35c9-44e1-9241-9d4678905448)
+
+
+
+### ***Title*** : LAB10
+### ***Aim*** : Operator Overloading
+### ***Algorithm*** :
+
+Initialize Date Class:
+
+Create a class called Date with private variables for day, month, and year.
+Implement a constructor to set the initial date, and a display function to print the date.
+
+Leap Year Check:
+Create a function (isLeapYear) to check if a given year is a leap year.
+A leap year is divisible by 4, but century years must also be divisible by 400.
+
+Days in Month:
+Create a function (daysInMonth) to determine the number of days in the current month.
+February has 29 days in a leap year and 28 days otherwise.
+April, June, September, and November have 30 days, while other months have 31 days.
+
+Overloaded ++ Operator:
+Overload the ++ operator as a member function in the Date class.
+Increment the day by 1.
+Check if the new day exceeds the number of days in the month.
+If yes, reset the day to 1 and increment the month.
+If the month exceeds 12, reset the month to 1 and increment the year.
+
+Main Function:
+In the main function, create an instance of the Date class with an initial date.
+Display the current date.
+Use the overloaded ++ operator to increment the date by one day.
+Display the updated date.
+
+Output :
