@@ -525,3 +525,5 @@ Repeat: Repeat steps 2-5 for the remaining unsorted part of the array.
 End: The array is sorted when no more swaps are needed.
 
 Output :-
+
+![Screenshot 2023-11-28 235044](https://github.com/noor307922/CPP/assets/125033135/7b1e311e-4228-48df-b364-9f0c3eb2365d)
