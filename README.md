@@ -527,3 +527,42 @@ End: The array is sorted when no more swaps are needed.
 Output :-
 
 ![Screenshot 2023-11-28 235044](https://github.com/noor307922/CPP/assets/125033135/7b1e311e-4228-48df-b364-9f0c3eb2365d)
+
+### ***Title*** : LAB18-Graph
+### ***Aim*** : Graph Data Structure
+### ***Algorithm*** :
+
+Adjacency Matrix to Adjacency List:
+
+Initialize an empty adjacency list for each vertex.
+
+For each row in the adjacency matrix:
+Create an empty list to represent the neighbors of the current vertex.
+
+For each entry in the row:
+
+If the entry is non-zero (indicating an edge):
+
+Add the corresponding column index to the list of neighbors for that vertex.
+
+Repeat steps 2-3 for each row in the matrix.
+
+The resulting lists represent the adjacency list for each vertex.
+
+Adjacency List to Adjacency Matrix:
+
+Initialize an empty adjacency matrix with all entries set to zero.
+
+For each vertex in the adjacency list:
+
+For each neighbor in the list:
+
+Set the corresponding entry in the adjacency matrix to 1.
+
+Repeat step 2 for each vertex in the adjacency list.
+
+The resulting matrix represents the adjacency matrix for the graph.
+
+### ***Output*** 
+
+![Screenshot 2023-11-29 000138](https://github.com/noor307922/CPP/assets/125033135/3f56f69a-bef7-4159-a81e-e4591c7f2427)
