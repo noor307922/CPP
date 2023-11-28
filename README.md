@@ -465,3 +465,32 @@ Output:
 
 
 ![Screenshot 2023-11-23 204122](https://github.com/noor307922/CPP/assets/125033135/fa06bb60-2631-42f7-8910-f989b2c40391)
+
+
+### ***Title*** : LAB14-Queue
+### ***Aim*** : Queue Implementation
+### ***Algorithm*** : 
+
+Enqueue (Add an element to the queue):
+If the queue is not full, we can add an element to it.
+If the queue is empty, set both the front and rear pointers to the first position.
+Otherwise, move the rear pointer to the next position and store the new element there.
+
+Dequeue (Remove an element from the queue):
+If the queue is not empty, we can remove an element from it.
+If the queue has only one element, set both the front and rear pointers to -1 (indicating an empty queue).
+Otherwise, move the front pointer to the next position.
+
+Display (Show all elements in the queue):
+If the queue is not empty, we can display its elements.
+Start from the front and move towards the rear, showing each element one by one.
+
+Peek (Get the front element without removing it):
+If the queue is not empty, we can see the element at the front without removing it.
+Simply display the element at the front position.
+
+Output :-![Screenshot 2023-11-28 233944](https://github.com/noor307922/CPP/assets/125033135/82717bdb-38d7-406b-9f48-9ee9ecc23b24)
+
+
+
+![Screenshot 2023-11-28 234028](https://github.com/noor307922/CPP/assets/125033135/9a5dd2c7-679e-43e0-a834-8ce93d5395ad)
